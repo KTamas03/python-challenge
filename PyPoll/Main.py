@@ -1,7 +1,7 @@
 #PyPoll Analysis to create output to terminal and to text file
 
-import os                                                           #import OS module to allow to create file paths accross operating systems
-import csv                                                          #import csv module for reading CSV files
+import os                                                           #import os module to allow to create file paths accross operating systems
+import csv                                                          #import csv module for reading csv files
 
 csvpath=os.path.join('Resources','election_data.csv')               #source file and location in network folder
 
