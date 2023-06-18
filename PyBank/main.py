@@ -6,10 +6,10 @@ import os
 #Import csv Module for reading CSV files
 import csv
 
-#file and location in network folder
+#source file and location in network folder
 csvpath=os.path.join('Resources','budget_data.csv')
 
-# Name of the output text file and location in network folder
+#Name of the output text file and location in network folder
 output_folder = os.path.join('analysis','financial_analysis.txt') 
 
 with open(csvpath) as csvfile, open(output_folder, "w") as output:
